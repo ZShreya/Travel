@@ -91,10 +91,11 @@ main {
     justify-content: space-between;
     align-items: flex-start;
     gap: 3rem;
-    
+
 }
 
-.popHead h1, .chooseDestination h1{
+.popHead h1,
+#chooseDestination .chooseText h1 {
     color: #131318;
     text-align: left;
     font-family: Mulish;
@@ -123,18 +124,152 @@ main {
 .popImg {
     max-width: 100%;
 }
-.popImage  img{
+
+.popImage img {
     width: 100%;
     height: auto;
     border-radius: 16px;
     background: lightgray 50% / cover no-repeat;
-    
 
+
+}
+#chooseDestination
+{
+    text-align: center;
+    margin: 100px 0px;
 }
 
 
+#chooseDestination .chooseText h1 {
+    text-align: center;
+    margin-top: 100px;
 
 
+}
+
+.chooseText p {
+
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+
+
+
+}
+
+#chooseDestination .popImg {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    height: 300px;
+    display: grid;
+    gap: 24px;
+    margin-bottom: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 16px;
+}
+
+.row1 {
+    height: 286px;
+    display: grid;
+    grid-template-columns: 374px 470px 277px;
+    gap: 24px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.row2 {
+    height: 300px;
+    display: grid;
+    grid-template-columns: 473px 673px;
+    gap:24px;
+    border-radius: 16px;
+    
+}
+
+.maldives {
+    background-image: url('../Images/Rectangle 5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.indonesia {
+    background-image: url('../Images/Rectangle 8.png');
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.srilanka {
+    background-image: url('../Images/Rectangle 6.png');
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.north {
+    background-image: url('../Images/Rectangle 7.png');
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.kashmir {
+    background-image: url('../Images/Rectangle 9.png');
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bd {
+    background-image: url('../Images/Rectangle 10.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.ban {
+    background-image: url('../Images/Rectangle 11.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+}
+.maldives,
+.indonesia,
+.srilanka,
+.north,
+.kashmir,
+.bd,
+.ban {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.maldives h3,
+.indonesia h3,
+.srilanka h3,
+.north h3,
+.kashmir h3,
+.bd h3,
+.ban h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
 
 @media screen and (max-width:576px) {
     .explore {
@@ -171,14 +306,29 @@ main {
 
     #popular_tours {
         flex-direction: column;
-       
+
     }
 
     .pop,
     .ul {
         width: 335px;
-       
 
     }
 
+    .row,
+    .row1,
+    .row2 {
+        grid-template-columns: 1fr; 
+        height: auto; 
+    }
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north,
+    .kashmir,
+    .bd,
+    .ban {
+        height: 176px;
+    }
 }
