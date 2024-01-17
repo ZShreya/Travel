@@ -3,6 +3,57 @@ main {
     max-width: 1170px;
 }
 
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 2.75rem;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.n2,
+.n1 {
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.n1 {
+    color: #FF5400;
+
+    font-weight: 700;
+
+}
+
+.logot {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    height: 45px;
+
+
+}
+
+.logo1 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+
+}
+
 .explore {
     border-radius: 16px;
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group 13 (1) (1).png');
@@ -379,7 +430,7 @@ footer .contain {
 
 }
 
-footer .contain .des {
+.des {
     margin-top: 33px;
     color: #5A5A5D;
     text-align: center;
@@ -400,9 +451,10 @@ footer .contain .des {
 }
 
 .logo {
-    width: 40px;
-    height: 36.673px;
-    margin: 5px;
+
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
 
 }
 
@@ -413,18 +465,17 @@ footer .contain .des {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-   
+
 }
 
 .social {
     display: flex;
     gap: 1.5rem;
     margin-top: 33px;
-
     width: 100%;
     height: 24px;
     justify-content: center;
-
+    align-items: center;
 }
 
 .line {
@@ -432,8 +483,35 @@ footer .contain .des {
     background: rgba(19, 19, 24, 0.10);
     width: 872px;
     height: 1px;
-  
+
 }
+
+
+.utube {
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px) {
     .explore {
@@ -523,9 +601,19 @@ footer .contain .des {
         max-width: 271px;
 
     }
-    .line{
+
+    .line {
         width: 335px;
-height: 1px;
+        height: 1px;
+    }
+    .utube
+    {
+        border-radius: 16px;
+        margin-top: 24px;
+        width: 100%;
+        height: 200px;
+        
+      
     }
 
 
