@@ -609,16 +609,38 @@ footer .contain {
 
 }
 
+.yo {
+    margin-top: 100px;
+}
 
+.yo h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 5px;
+}
 
+.yo p {
 
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
 
+.yopic img {
 
-
-
-
-
-
+    width: 100%;
+    height: 500px;
+    margin-bottom: 24px;
+}
 
 
 
@@ -736,9 +758,8 @@ footer .contain {
 
     .news2 {
         width: 100%;
-        /* Adjust the width as needed */
         height: auto;
-        /* Allow the height to adjust proportionally */
+    
     }
 
     .news2 img {
@@ -758,4 +779,11 @@ footer .contain {
         margin-top: 190px;
     }
 
+    .yopic imag {
+        width: 100%;
+        height: 500px;
+        flex-shrink: 0;
+    }
+
+   
 }
