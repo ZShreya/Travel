@@ -496,6 +496,119 @@ footer .contain {
     align-items: center;
 }
 
+.newsall {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.1rem;
+    position: relative;
+
+    margin-top: 100px;
+
+}
+
+.news2 img {
+    background-repeat: no-repeat;
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+
+
+}
+
+.news1 {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 100%;
+    height: 422px;
+
+}
+
+.form input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    width: 100%;
+    height: 52px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    border: none;
+    outline: none;
+
+}
+
+.line2 {
+    background: rgba(19, 19, 24, 0.10);
+    width: 393px;
+    height: 1px;
+}
+
+.newsall h1 {
+    text-align: left;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 15px;
+}
+
+.newsall p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 15px;
+
+}
+
+
+
+
+
+.btn_primary1 {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    margin: auto 25px;
+    border: none;
+    outline: none;
+    color: #FFF;
+}
+
+.btn {
+
+    width: 324px;
+    height: 120px;
+    transform: rotate(-26deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    margin-left: -330px;
+    margin-top: 240px;
+
+    border: none;
+    outline: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
 
 
 
@@ -606,16 +719,43 @@ footer .contain {
         width: 335px;
         height: 1px;
     }
-    .utube
-    {
+
+    .utube {
         border-radius: 16px;
         margin-top: 24px;
         width: 100%;
         height: 200px;
-        
-      
+
+
+    }
+
+    .newsall {
+        flex-direction: column;
     }
 
 
+    .news2 {
+        width: 100%;
+        /* Adjust the width as needed */
+        height: auto;
+        /* Allow the height to adjust proportionally */
+    }
+
+    .news2 img {
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+    }
+
+    .btn {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-26deg);
+        flex-shrink: 0;
+        border-radius: 10.569px;
+        background: #FF5400;
+        margin-left: -220px;
+        margin-top: 190px;
+    }
 
 }
